@@ -1,0 +1,27 @@
+.locker-wrapper {
+    color: white;
+    width: 700px;
+    align-self: center;
+    margin: auto;
+
+    flex-direction: column;
+    align-items: center;
+
+    input {
+        margin: 8px 24px;
+        width: calc(100% - 48px);
+    }
+
+    button {
+        margin: 8px 24px;
+    }
+
+    .ant-alert {
+        margin: 8px 24px;
+    }
+
+}
+
+.locker-text {
+    margin: 8px 24px;
+}

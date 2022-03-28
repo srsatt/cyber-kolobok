@@ -1,0 +1,25 @@
+.game-dialogue-wrapper {
+    flex-direction: row;
+    display: flex;
+    color: white;
+}
+
+.game-dialogue-character-name {
+    font-size: 17px;
+    text-align: center;
+
+}
+
+.game-dialogue-character-wrapper {
+    width: 300px;
+}
+
+.game-dialogue-img {
+    width: 300px;
+    height: 300px;
+}
+
+.game-wrapper {
+    display: flex;
+    flex-direction: column;
+}

@@ -1,14 +1,19 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
+import React from "react";
+import ReactDOM from "react-dom";
+import "./index.scss";
+import App from "./App";
+import * as serviceWorker from "./serviceWorker";
+import { StoreProvider } from "./store-provider";
+import { RootStore } from "./stores/root.store";
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
+  <StoreProvider value={RootStore}>
+    <>
+      <App />
+      <div id="popup-anchor"></div>
+    </>
+  </StoreProvider>,
+  document.getElementById("root")
 );
 
 // If you want your app to work offline and load faster, you can change

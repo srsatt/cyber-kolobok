@@ -1,0 +1,25 @@
+.dialogue-dialogue-wrapper {
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.dialogue-line {
+    margin: 8px;
+    border: 1px solid white;
+    padding: 4px;
+    border-radius: 4px;
+    max-width: calc(100% - 50px);
+    display: none;
+    font-size: 15px;
+
+    &_who_enemy {
+        background-color: rgba(0, 0, 255, 0.2);
+        margin-left: auto;
+    }
+
+    &_who_kolobok {
+        background-color: rgba(0, 255, 0, 0.2);
+        margin-right: auto;
+    }
+}
